@@ -88,7 +88,7 @@ def adding_matz
 		#	 languages: ["LISP", "C"]
 		# }]
 
-		 p programmer_hash
+		 p programmer_hash[:grace_hopper]
 end
 
 def changing_alan
