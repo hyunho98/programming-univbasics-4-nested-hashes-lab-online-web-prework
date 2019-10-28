@@ -83,10 +83,12 @@ def adding_matz
         }
      }
 
-		 {:yukihiro_matsumoto = {
+		 Hash[:yukihiro_matsumoto = {
 			 known_for: "Ruby",
 			 languages: ["LISP", "C"]
-		 } + programmer_hash}
+		 }]
+
+		 p programmer_hash
 end
 
 def changing_alan
