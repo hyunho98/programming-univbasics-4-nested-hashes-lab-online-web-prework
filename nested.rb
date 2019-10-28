@@ -83,10 +83,10 @@ def adding_matz
         }
      }
 
-		 Hash[:yukihiro_matsumoto = {
-			 known_for: "Ruby",
-			 languages: ["LISP", "C"]
-		 }]
+		# Hash[:yukihiro_matsumoto = {
+		#	 known_for: "Ruby",
+		#	 languages: ["LISP", "C"]
+		# }]
 
 		 p programmer_hash
 end
@@ -132,4 +132,4 @@ def adding_to_dennis
 
 end
 
-p adding_matz
+adding_matz
